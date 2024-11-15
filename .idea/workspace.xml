@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca03775e-a8c3-4050-897b-a2eafa95928c" name="Changes" comment="initial_migration_with_database">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="ca03775e-a8c3-4050-897b-a2eafa95928c" name="Changes" comment="Add_Employer_model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Job.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_11_10_152812_create_job_listings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2024_11_10_152812_create_job_listings_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2024_11_10_163954_create_posts_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mohamed-mostafa/Desktop/test/myfirstapp/resources/views&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/mohamed-mostafa/Desktop/test/myfirstapp/resources/views",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
@@ -106,7 +100,7 @@
       <workItem from="1731249106999" duration="6838000" />
       <workItem from="1731423243475" duration="18000" />
       <workItem from="1731485754517" duration="742000" />
-      <workItem from="1731670446082" duration="3644000" />
+      <workItem from="1731670446082" duration="4857000" />
     </task>
     <task id="LOCAL-00001" summary="secondDayWork">
       <option name="closed" value="true" />
@@ -140,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731257076473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add_Employer_model">
+      <option name="closed" value="true" />
+      <created>1731675694627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731675694627</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +171,7 @@
     <MESSAGE value="Firstcommit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial_migration_with_database" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial_migration_with_database" />
+    <MESSAGE value="Add_Employer_model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add_Employer_model" />
   </component>
 </project>
