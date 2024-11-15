@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ca03775e-a8c3-4050-897b-a2eafa95928c" name="Changes" comment="Add_Employer_model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Employer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Employer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Job.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,7 @@
       <workItem from="1731249106999" duration="6838000" />
       <workItem from="1731423243475" duration="18000" />
       <workItem from="1731485754517" duration="742000" />
-      <workItem from="1731670446082" duration="4857000" />
+      <workItem from="1731670446082" duration="7100000" />
     </task>
     <task id="LOCAL-00001" summary="secondDayWork">
       <option name="closed" value="true" />
@@ -142,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731675694627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add_Employer_model">
+      <option name="closed" value="true" />
+      <created>1731676015666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731676015666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
