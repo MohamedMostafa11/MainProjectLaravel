@@ -7,8 +7,10 @@ Route::get('/', function () {
 });
 
 Route::get('/jobs', function () {
+    //$jobs = Job::all();
+    $jobs = Job::with('employer')->get(); //to minimize the number of query
     return view('jobs',[
-        'jobs'=> Job::all()
+        'jobs'=> $jobs
     ]);
 });
 
