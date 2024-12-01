@@ -8,7 +8,9 @@ Route::get('/', function () {
 
 Route::get('/jobs', function () {
     //$jobs = Job::all();
-    $jobs = Job::with('employer')->get(); //to minimize the number of query
+    //$jobs = Job::with('employer')->paginate(3); //to minimize the number of query
+    //$jobs = Job::with('employer')->cursorPaginate(3);
+    $jobs = Job::with('employer')->simplePaginate(3);
     return view('jobs',[
         'jobs'=> $jobs
     ]);
