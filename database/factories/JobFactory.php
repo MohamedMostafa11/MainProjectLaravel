@@ -9,8 +9,16 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 class JobFactory extends Factory
 {
 
-    public function definition()
+    public function definition() : array
     {
         //
+        return [
+
+        'employer_id' => Employer::factory(),
+        'title' => fake()->jobTitle(),
+        'salary' => fake()->numberBetween($min = 10000, $max = 90000),
+         //   'created_at' => fake(now()),
+         //   'updated_at' => fake(now()),
+        ];
     }
 }

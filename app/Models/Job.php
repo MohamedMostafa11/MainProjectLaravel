@@ -8,13 +8,14 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Job extends Model
 {
+    /** @use HasFactory<\Database\Factories\JobFactory> */
     use HasFactory;
     protected $table = 'job_listings';
-    protected $fillable = ['title','salary'];
+    protected $fillable = ['title', 'salary', 'employer_id'];
 
     function employer(): BelongsTo
     {
-        return $this->belongsTo(Employer::class);
+        return $this->belongsTo(Employer::class, 'employer_id');
     }
     function tags(): BelongsToMany
     {
